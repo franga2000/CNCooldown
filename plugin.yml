@@ -1,0 +1,6 @@
+name: CNCooldown
+authors: [franga2000]
+version: 1
+softdepend: [Factions]
+description: Advanced cooldown and warmup settings
+main: com.franga2000.CNCooldown.Main

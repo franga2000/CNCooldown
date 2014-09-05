@@ -1,0 +1,24 @@
+#CNCooldown Config
+prefix: '&8[&3CN&8]'
+commands:
+    tpa:
+        warmup:
+            default: 5
+            warzone: 30
+        cooldown:
+            default: 30
+            warzone: 60
+    home:
+        warmup:
+            default: 5
+            warzone: 30
+        cooldown:
+            default: 30
+            warzone: 60
+integration:
+    factions: false
+
+messages:
+    CommandOnCooldown: '&cYou can use {command} again in {cooldown} seconds'
+    WarmupCanceled: '&bYour warmup was canceled due to moving'
+    CommandWarmingUp: '&bPlease wait {warmup} seconds for the command to warm up.'
